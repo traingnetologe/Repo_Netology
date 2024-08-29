@@ -1,0 +1,71 @@
+﻿  Address_Class.cpp
+Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,39): error C2676: бинарный "+": "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1920,50):
+      может быть "std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)': не удалось вывести аргумент шаблон для 'const std::reverse_iterator<_BidIt> &' из 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4454,5):
+      или       "std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)': не удалось вывести аргумент шаблон для 'const std::move_iterator<_Iter> &' из 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3123,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3135,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const _Elem *const ' из 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3148,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3159,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )': не удалось вывести аргумент шаблон для 'const _Elem *const ' из 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3172,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)": в шаблон параметр "_Elem" неоднозначен
+              Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+              может быть "int"
+              Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+              или       "char"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': не удалось вывести аргумент шаблон для 'const _Elem' из 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3183,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &&' из 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3189,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3195,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &&' из 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3208,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)': не удалось вывести аргумент шаблон для 'const _Elem *const ' из 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3214,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &&' из 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3220,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )': не удалось вывести аргумент шаблон для 'const _Elem *const ' из 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3226,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)": в шаблон параметр "_Elem" неоднозначен
+              Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+              может быть "int"
+              Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+              или       "char"
+          Y:\visual stidio files\Address_Class\Address_Class\Address_Class.cpp(20,32):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)': не удалось вывести аргумент шаблон для 'const _Elem' из 'int'
+  

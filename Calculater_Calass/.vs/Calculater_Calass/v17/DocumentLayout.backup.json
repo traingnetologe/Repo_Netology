@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\visual stidio files\\Calculater_Calass\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{090499E4-6D41-491A-ADE2-B0DEB69DED47}|Calculater_Calass\\Calculater_Calass.vcxproj|Y:\\visual stidio files\\Calculater_Calass\\Calculater_Calass\\Calculater_Calass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{090499E4-6D41-491A-ADE2-B0DEB69DED47}|Calculater_Calass\\Calculater_Calass.vcxproj|solutionrelative:Calculater_Calass\\Calculater_Calass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calculater_Calass.cpp",
+              "DocumentMoniker": "Y:\\visual stidio files\\Calculater_Calass\\Calculater_Calass\\Calculater_Calass.cpp",
+              "RelativeDocumentMoniker": "Calculater_Calass\\Calculater_Calass.cpp",
+              "ToolTip": "Y:\\visual stidio files\\Calculater_Calass\\Calculater_Calass\\Calculater_Calass.cpp",
+              "RelativeToolTip": "Calculater_Calass\\Calculater_Calass.cpp",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAuwGoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-26T12:44:48.374Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

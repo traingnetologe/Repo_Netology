@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\visual stidio files\\Address_Class\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67252A03-7922-4F47-A6F3-FCCB197580BF}|Address_Class\\Address_Class.vcxproj|Y:\\visual stidio files\\Address_Class\\Address_Class\\Address_Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{67252A03-7922-4F47-A6F3-FCCB197580BF}|Address_Class\\Address_Class.vcxproj|solutionrelative:Address_Class\\Address_Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Address_Class.cpp",
+              "DocumentMoniker": "Y:\\visual stidio files\\Address_Class\\Address_Class\\Address_Class.cpp",
+              "RelativeDocumentMoniker": "Address_Class\\Address_Class.cpp",
+              "ToolTip": "Y:\\visual stidio files\\Address_Class\\Address_Class\\Address_Class.cpp",
+              "RelativeToolTip": "Address_Class\\Address_Class.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-27T08:45:48.676Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
